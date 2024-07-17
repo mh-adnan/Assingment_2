@@ -229,3 +229,84 @@
 
 /* 
 BMI calculator start from here  */
+
+
+
+
+.calcu-top-part{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+/* .calcu-top-part h3{
+   margin-right: 200px;
+} */
+
+/* .calcu-left-part h4{
+    margin-top: 50px;
+    margin-bottom: 30px;
+} */
+
+.bmi-tabel{
+    /* width: 35%; */
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .bmi-bottom-part{
+    width: 95%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    
+
+  }
+
+/* bmi right part  */
+
+
+.bmi-right-part p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-group1, .form-group2, .form-group3  input{
+    margin-top: 10px;
+}
+
+.form-group3 input {
+    width: 350px;
+    height: 23px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin-bottom: 20px;
+}
+
+.btn-bmi{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 10px 30px;
+    
+}
+.btn-bmi span{
+    margin-top: 200px;
+}
+
+
+/* Bmi calculation ends here  */
