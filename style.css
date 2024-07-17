@@ -233,15 +233,16 @@ BMI calculator start from here  */
 
 
 
-.calcu-top-part{
+.calcu-top-part {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
     margin-bottom: 50px;
     margin-left: 300px;
 }
+
 /* .calcu-top-part h3{
    margin-right: 200px;
 } */
@@ -251,17 +252,19 @@ BMI calculator start from here  */
     margin-bottom: 30px;
 } */
 
-.bmi-tabel{
+.bmi-tabel {
     /* width: 35%; */
 }
 
-table, th, td {
-    border:1px solid black;
+table,
+th,
+td {
+    border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-  }
+}
 
-  .bmi-bottom-part{
+.bmi-bottom-part {
     width: 95%;
     margin-left: 20px;
     display: flex;
@@ -270,18 +273,21 @@ table, th, td {
     justify-content: space-between;
     margin-top: 50px;
 
-    
 
-  }
+
+}
 
 /* bmi right part  */
 
 
-.bmi-right-part p{
+.bmi-right-part p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.form-group1, .form-group2, .form-group3  input{
+
+.form-group1,
+.form-group2,
+.form-group3 input {
     margin-top: 10px;
 }
 
@@ -294,7 +300,7 @@ table, th, td {
     margin-bottom: 20px;
 }
 
-.btn-bmi{
+.btn-bmi {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 18px;
@@ -302,11 +308,66 @@ table, th, td {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 10px 30px;
-    
+
 }
-.btn-bmi span{
+
+.btn-bmi span {
     margin-top: 200px;
 }
 
 
 /* Bmi calculation ends here  */
+
+/* meet our trainers section start  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Fotter section start here  */
+
+.foter-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.foter-part a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.third-part ul li {
+    margin-bottom: 30px;
+}
+
+.foter-part ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.copy-right {
+    text-align: center;
+    margin-top: 50px;
+}
