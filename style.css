@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    background-color: #333;
+    /* width: 98%; */
+}
+
+/* shared css code  */
+
+
+
+
+
+/* nav_bar_section */
+
+.nav_bar_section {
+    width: 100%;
+    margin: 0.1rem auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.logo {
+    color: rgb(230, 83, 60);
+}
+
+.nav_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_items ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-right: 20px;
+}
+
+.nav-option {
+    display: flex;
+}
+
+.nav_items ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.home {
+    background-color: rgb(230, 83, 60);
+    border-radius: 80px;
+
+}
+
+
+/* nav- bar css code ends here  */
+
+
+
+/* get-body section start from here  */
+
+.get-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 2px solid red;
+    width: 100%;
+    margin-left: 20px;
+    position: relative;
+
+
+}
+
+
+.title-of-get-body {
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(14, 193, 155);
+}
+
+.get-body-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(255, 3, 3, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-get-body {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 10px 30px;
+}
+
+.btn-2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(33, 27, 26);
+    padding: 10px 30px;
+}
+
+/* .get_body_img {
+    
+   
+    position: absolute;
+    left: 70%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+
+
+} */
+
+
+
+/* Change your habit section start from here  */
+.top-changes-your-habit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px
+}
+
+.change-ur-habit-images-section {
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.trainner img {
+    border-radius: 50%;
+}
+
+.trainner h4 {
+    text-align: center;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+
+/* run an extra miles start from here  */
+
+
+
+
+
+
