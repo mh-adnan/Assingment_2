@@ -95,7 +95,7 @@
 }
 
 
-.bars {
+.bars i {
     display: none;
 }
 
@@ -947,12 +947,12 @@ Fotter section start here  */
     .bars i {
         display: block;
         font-size: 20px;
-        color: red;
+        color: white;
         position: absolute;
-        margin-left: -363px;
+        margin-left: 317px;
         top: 62px;
         width: 18px;
-        border: 2px solid rgb(220, 24, 24);
+        /* border: 2px solid rgb(255, 255, 255); */
     }
 
 
@@ -1180,7 +1180,7 @@ run extra miles start from here  */
 
     .bmi-right-part p {
 
-        width: 79%;
+        width: 179%;
         font-size: 14px;
 
     }
@@ -1258,7 +1258,7 @@ run extra miles start from here  */
         padding-left: 35px;
         border-radius: 12px;
         padding-right: 35px;
-        top: 294px;
+        top: 208px;
         right: 625px;
         left: 169px;
         order: 0;
@@ -1296,7 +1296,7 @@ run extra miles start from here  */
     /* meet our sectionstart here  */
 
     .trainer-part {
-        padding-top: 500px;
+        padding-top: 400px;
     }
 
     .trainer-content {
@@ -1355,4 +1355,4 @@ run extra miles start from here  */
 }
 
 /* 
-after complitin 95% code  */
+after complitin 100% code  */
