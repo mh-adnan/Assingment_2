@@ -95,6 +95,10 @@
 }
 
 
+.bars {
+    display: none;
+}
+
 /* nav- bar css code ends here  */
 
 
@@ -918,36 +922,402 @@ Fotter section start here  */
 
 /* @media screen and (min-width:390px) and (max-width:844px) { */
 
-@media screen and (max-width:960px) {
-
+@media screen and (max-width:600px) {
 
     * {
-        /* background-color: red; */
-        /* width: 100%; */
+        margin: 0 auto;
+        padding: 0 auto;
+        /* right: 500px; */
+        /* background-color:#000000;; */
         /* scroll-behavior: smooth; */
         scrollbar-width: none;
-        /* scroll-behavior: none;
-    */
     }
 
 
-    /* Meet out team  */
+    .logo {
+        font-size: 40px;
+        width: 132px;
+        height: 43px;
+    }
+
+    .nav_items {
+        display: none;
+    }
+
+    .bars i {
+        display: block;
+        font-size: 20px;
+        color: red;
+        position: absolute;
+        margin-left: -363px;
+        top: 62px;
+        width: 18px;
+        border: 2px solid rgb(220, 24, 24);
+    }
+
+
+    .title-of-get-body {
+
+        margin-top: -80px;
+        margin-left: 20px;
+    }
+
+    .title-of-get-body h3,
+    .italic {
+        font-size: 40px;
+        margin-bottom: 700px;
+    }
+
+    .title-of-get-body h3 {
+        white-space: nowrap;
+    }
+
+    .title-of-get-body .italic {
+        display: inline;
+    }
+
+    .get-body-description p {
+
+        /* white-space: nowrap; */
+        margin-top: -650px;
+        margin-right: 100px;
+        /* margin-bottom: 500px; */
+        margin-left: 10px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: none;
+        max-width: 82%;
+
+    }
+
+    .btn-1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 31px;
+        background: rgb(230, 83, 60);
+        padding: 12px 27px;
+        margin-top: 21px;
+        white-space: nowrap;
+        margin-left: 10px;
+    }
+
+    .btn-2 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 31px;
+        background: rgb(33, 27, 26);
+        padding: 12px 27px;
+        margin-top: 21px;
+        white-space: nowrap;
+        margin-right: 10px;
+    }
+
+
+    .right-content-of-get-body img {
+        margin-top: 1034px;
+        right: -200px;
+        /* margin-bottom: 800px; */
+        margin-left: -202px;
+    }
+
+
+    .three_hundrend_fifty {
+        color: rgb(255, 255, 255);
+        position: relative;
+        font-size: 22px;
+        top: 368px;
+        /* background-color: rgb(149 138 134 / 61%); */
+        width: 70%;
+        padding-right: 22px;
+        padding-left: 30px;
+        padding-top: 22px;
+        padding-bottom: 16px;
+        border-radius: 14px;
+        top: 900px;
+        right: 361px;
+        bottom: 23px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+    }
+
+    .five_hundrend {
+        color: rgb(255, 255, 255);
+        position: relative;
+        font-size: 22px;
+        top: -91px;
+        /* background-color: rgb(149 138 134 / 61%); */
+        width: 70%;
+        padding-right: -10px;
+        padding-left: 28px;
+        padding-top: 18px;
+        padding-bottom: 19px;
+        border-radius: 16px;
+        top: 297px;
+        right: 201px;
+        bottom: 40px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+    }
+
+
+    /* change your habit section start  */
+
+    .chnage-your-habit {
+        padding-top: 700px;
+    }
+
+    .change-title h3 {
+        margin-left: 10px;
+        text-align: center;
+
+    }
+
+    .change-description p {
+        margin-left: 20px;
+        text-align: center;
+        white-space: wrap;
+        max-width: 90%;
+
+    }
+
+    .no-break {
+        display: none;
+    }
+
+    .change-ur-habit-images-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .trainer {
+        padding-top: -5px;
+        margin-top: -20px;
+    }
+
+    /* chnage you habit section ends here  */
+
+
+
+
+
+    /* 
+run extra miles start from here  */
+
+
+    .run-extra-miles {
+        padding-top: 20px;
+        /* padding-left: 20px;
+    padding-right: 20px; */
+        padding-left: 30px;
+    }
+
+    .run-an-etra-miles-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .left-extra-miles h2 {
+        margin-left: -50px;
+    }
+
+    .left-extra-miles p {
+        margin-left: -60px;
+        width: 80%;
+        text-align: left;
+        margin-right: 50px;
+        white-space: wrap;
+    }
+
+    .left-extra-miles span {
+        margin-left: -50px;
+    }
+
+    .right-extra-miles-img img {
+        margin-left: -40px;
+        width: 250px;
+        text-align: left;
+        height: 300px;
+        object-fit: cover;
+    }
+
+
+    /* BMI calcu start form here  */
+
+
+
+
+    .calcu-top-part h3 {
+        font-size: 40px;
+    }
+
+
+    .calcu-left-part {
+        margin-left: -120px;
+    }
+
+
+    .bmi-right-part {
+        position: absolute;
+        top: 4638px;
+        left: 50px;
+        width: 46%;
+    }
+
+    .bmi-right-part h3 {
+        white-space: nowrap;
+
+    }
+
+    .bmi-right-part p {
+
+        width: 79%;
+        font-size: 14px;
+
+    }
+
+    .no {
+        display: none;
+    }
+
+
+    #height {
+        width: 39%;
+        float: left;
+        padding-top: 7px;
+        padding-bottom: 14px;
+        margin-bottom: 16px;
+        padding-left: 35px;
+        /* border-radius: 12px; */
+        padding-right: 49px;
+        right: 500px;
+        left: -500px;
+        order: 0;
+        flex-grow: 1;
+        /* background-color: #a8d419; */
+        border-radius: 8px;
+        color: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #weight {
+        position: absolute;
+        width: -16%;
+        float: right;
+        padding-top: 7px;
+        padding-bottom: 14px;
+        margin-bottom: 16px;
+        padding-left: 35px;
+        border-radius: 12px;
+        padding-right: 35px;
+        right: 625px;
+        left: 169px;
+        order: 0;
+        flex-grow: 1;
+        /* background-color: #a8d419; */
+        border-radius: 8px;
+        color: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #age {
+        width: 39%;
+        float: left;
+        padding-top: 7px;
+        padding-bottom: 14px;
+        margin-bottom: 16px;
+        padding-left: 35px;
+        border-radius: 12px;
+        padding-right: 49px;
+        right: 500px;
+        left: -500px;
+        order: 0;
+        flex-grow: 1;
+        /* background-color: #a8d419; */
+        border-radius: 8px;
+        color: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #sex {
+        position: absolute;
+        width: -16%;
+        float: right;
+        padding-top: 7px;
+        padding-bottom: 14px;
+        margin-bottom: 16px;
+        padding-left: 35px;
+        border-radius: 12px;
+        padding-right: 35px;
+        top: 294px;
+        right: 625px;
+        left: 169px;
+        order: 0;
+        flex-grow: 1;
+        /* background-color: #a8d419; */
+        border-radius: 8px;
+        color: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #activity-factor {
+        width: 172%;
+        padding-top: 8px;
+        padding-bottom: 7px;
+        margin-bottom: 13px;
+        padding-left: 10px;
+        padding-right: 0px;
+        margin-bottom: 40px;
+        border-radius: 11px;
+        order: 0;
+        flex-grow: 1;
+        /* background-color: #a8d419; */
+        border-radius: 8px;
+        color: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+
+    /* BMI calcu sectin ends here  */
+
+
+
+
+
+    /* meet our sectionstart here  */
+
+    .trainer-part {
+        padding-top: 500px;
+    }
 
     .trainer-content {
         display: grid;
-        grid-template-columns: repeat (1fr 1fr);
-        align-items: right;
-
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
 
-    /* Fotter part start from here  */
+
+
+    /* 
+    Fotter part start from here   */
 
 
     .foter-part {
+        padding-top: 100px;
         display: grid;
         grid-template-rows: 1fr 1fr;
         align-items: left;
+        padding-left: 19px;
     }
 
     .seccond-part {
@@ -962,6 +1332,7 @@ Fotter section start here  */
 
 
     .third-part {
+        padding-top: 50px;
         text-align: left;
         margin-left: 0px;
     }
@@ -971,8 +1342,17 @@ Fotter section start here  */
         margin-left: -40px;
     }
 
+
+    .hr-tag {
+        position: absolute;
+        width: 90%;
+        left: -59px;
+    }
+
+    .copy-right p {
+        padding-bottom: 50px;
+    }
 }
 
-
-
-/* after completing dekstop part full  */
+/* 
+after complitin 95% code  */
