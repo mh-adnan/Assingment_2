@@ -352,6 +352,101 @@
 }
 
 
+/* extra benifit section start from here  */
+.extra-benifits{
+    background-color: #000000;
+    padding-top: 30px;
+}
+.benifits-top-part h3{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Inter;
+}
+
+.benifits-top-part p{
+    width:50%;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 40px;
+
+}
+
+.benifits-botom-part{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    justify-content: space-around;
+    align-items: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cart-section {
+    background: rgb(34, 34, 34);
+    border-radius: 32px;
+    width: 77%;
+    margin-top: 50px;
+    position: relative;
+    padding-top: 86px;
+    padding-bottom: 35px;
+    padding-left: 28px;
+    padding-right: -30px;
+    left: 20px;
+}
+
+.cart-img img{
+    width: 60px;
+    height: 80px;
+    background-color: transparent;
+}
+
+
+
+.cart-text h4 {
+    color: rgb(255, 255, 255);
+    float: right;
+    padding-bottom: -25px;
+    left: 41px;
+    margin-right: 215px;
+    margin-left: 100px;
+    margin-top: -124px;
+    margin-bottom: 6px;
+    font-family: Inter;
+}
+
+#work-out{
+    
+    /* margin-right: -50px; */
+    margin-left: 160px;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.cart-text p {
+    color: rgb(255, 255, 255);
+    float: right;
+    /* position: absolute; */
+    bottom: -104px;
+    left: 109px;
+    top: 50px;
+    bottom: 50px;
+    right: 20px;
+    margin-right: 75px;
+    margin-left: 127px;
+    margin-top: -72px;
+    margin-bottom: 20px;
+    font-family: Inter;
+}
+
+/* extra benifis section ends here  */
+
+
 
 
 /* run an extra miles start from here  */
@@ -1150,13 +1245,21 @@ run extra miles start from here  */
         object-fit: cover;
     }
 
+/* extra benifit section start from here  */
+
+
+
+
+.benifits-botom-part{
+    padding-bottom: 500px;
+}
 
     /* BMI calcu start form here  */
 
 
 
-
     .calcu-top-part h3 {
+        
         font-size: 40px;
     }
 
