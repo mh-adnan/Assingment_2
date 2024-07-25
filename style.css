@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
 * {
     margin: 0 auto;
     padding: 0 auto;
@@ -39,8 +42,9 @@
     display: flex;
     justify-content: space-between;
     /* margin-right: 100px; */
-    border: 1px solid red;
-    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
     /* padding-left: 0px; */
     /* width: 20%; */
     /* float: right; */
@@ -120,13 +124,20 @@
 
 
 .italic {
-    font-style: italic;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
 }
 
 .get-body-description {
     margin-top: 20px;
     margin-bottom: 30px;
     color: rgb(248, 247, 247);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -184,7 +195,7 @@
     position: relative;
     font-size: 22px;
     top: 368px;
-    background-color: rgb(149 138 134 / 61%);
+    /* background-color: rgb(149 138 134 / 61%); */
     width: 70%;
     padding-right: 22px;
     padding-left: 30px;
@@ -193,6 +204,10 @@
     border-radius: 14px;
     right: 209px;
     bottom: 54px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
 }
 
 .three_hundrend_fifty h3 {
@@ -210,7 +225,7 @@
     position: relative;
     font-size: 22px;
     top: -91px;
-    background-color: rgb(149 138 134 / 61%);
+    /* background-color: rgb(149 138 134 / 61%); */
     width: 70%;
     padding-right: -10px;
     padding-left: 28px;
@@ -219,6 +234,11 @@
     border-radius: 16px;
     right: -57px;
     bottom: 33px;
+
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
 }
 
 .five_hundrend h3 {
@@ -250,14 +270,20 @@
 .change-title h3 {
     font-size: 40px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .change-description p {
     text-align: center;
     margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
-
 
 .top-changes-your-habit {
     display: flex;
@@ -295,11 +321,23 @@
     margin-bottom: 20px;
     margin-top: 15px;
     margin-left: 55px;
-    color: white;
+    /* color: rgb(255, 255, 255); */
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .trainner p {
     margin-right: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 #loss {
@@ -340,11 +378,17 @@
     margin-left: 50px;
     width: 85%;
     /* gap: -500px; */
-    background-color: rgb(82, 86, 89);
-    border-radius: 8px;
+    background-color: rgb(34, 34, 34);
+
+    /* border-radius: 8px; */
     padding-top: 50px;
     padding-bottom: 50px;
     margin-left: 100PX;
+
+
+
+    border-radius: 18px;
+    color: rgb(255, 255, 255);
 }
 
 .left-extra-miles h2 {
@@ -368,27 +412,37 @@
 
 .left-extra-miles p {
     margin-top: 40px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-family: Inter;
     font-size: 19px;
     font-weight: 400;
     /* line-height: 24px; */
 
-    text-align:left;
+    text-align: left;
     margin-bottom: 60px;
     margin-right: 0px;
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 
 }
 
 .left-extra-miles span {
     margin-top: 376px;
-    color: rgb(240, 240, 240);
+    /* color: rgb(240, 240, 240); */
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     border-radius: 14px;
-    padding: 8px 46px 13px 43px;
+    padding: 16px 40px 16px 40px;
     background: rgb(230, 83, 60);
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .right-extra-miles-img img {
@@ -405,8 +459,15 @@ BMI calculator start from here  */
 
 .bmi-calcu {
     background-color: #000000;
-    ;
+    /* background: rgb(34, 34, 34); */
 
+
+}
+
+.hedom {
+    background: rgb(34, 34, 34);
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .calcu-top-part {
@@ -419,21 +480,33 @@ BMI calculator start from here  */
     margin-left: 20px;
     /* margin-right: 300px; */
     padding-top: 50px;
+
+
 }
 
 .calcu-top-part p {
     font-size: 19px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .calcu-top-part h3 {
     font-size: 29px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .calcu-left-part h4 {
     font-size: 29px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .bmi-tabel {
@@ -446,10 +519,15 @@ BMI calculator start from here  */
 table,
 th,
 td {
-    border: 1px solid rgb(195, 92, 92);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     text-align: center;
-    background-color: #07f65f;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+
+
 }
 
 .bmi-bottom-part {
@@ -473,7 +551,10 @@ td {
 .bmi-right-part h3 {
     font-size: 29px;
     margin-bottom: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .bmi-right-part p {
@@ -481,6 +562,10 @@ td {
     margin-bottom: 39px;
     font-size: 16px;
     font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 
 }
 
@@ -491,11 +576,16 @@ td {
     padding-bottom: 14px;
     margin-bottom: 16px;
     padding-left: 35px;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     padding-right: 20px;
     right: 500px;
     left: -500px;
-    background-color: #a8d419;
+    order: 0;
+    flex-grow: 1;
+    /* background-color: #a8d419; */
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 #weight {
@@ -509,6 +599,12 @@ td {
     padding-right: 20px;
     right: 500px;
     left: -500px;
+    order: 0;
+    flex-grow: 1;
+    /* background-color: #a8d419; */
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
 
 }
 
@@ -523,6 +619,12 @@ td {
     padding-right: 20px;
     right: 500px;
     left: -500px;
+    order: 0;
+    flex-grow: 1;
+    /* background-color: #a8d419; */
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 #sex {
@@ -536,6 +638,12 @@ td {
     padding-right: 20px;
     right: 500px;
     left: -500px;
+    order: 0;
+    flex-grow: 1;
+    /* background-color: #a8d419; */
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 #activity-factor {
@@ -546,6 +654,12 @@ td {
     padding-right: 266px;
     margin-bottom: 40px;
     border-radius: 11px;
+    order: 0;
+    flex-grow: 1;
+    /* background-color: #a8d419; */
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .form-group3 input {
@@ -584,12 +698,15 @@ td {
     gap: 1px;
     /* margin-top: 100px; */
     width: 78%;
-    background-color: rgb(87, 81, 74);
+    /* background-color: rgb(87, 81, 74); */
     padding-top: 30px;
     border-radius: 12px;
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
+    background: rgba(255, 255, 255, 0.1);
+
+
 }
 
 #t-h4 {
@@ -614,11 +731,20 @@ td {
 .trainer-title h3 {
     font-size: 40px;
     margin-bottom: 30px;
-    color: white;
+
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .trainer-description p {
     text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .trainer-top-part {
@@ -683,10 +809,20 @@ Fotter section start here  */
 }
 
 .first-part h3 {
-    color: white;
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
     font-size: 70px;
     margin-bottom: 20px;
     margin-top: -50px;
+}
+
+.first-part p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .foter-part a {
@@ -700,19 +836,37 @@ Fotter section start here  */
 .seccond-part h4 {
     font-size: 30px;
     margin-bottom: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .service ul li a {
     margin-top: 100px;
     font-size: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.service2 ul li a {
+    margin-top: 100px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
 }
 
 .third-part h4 {
     font-size: 30px;
     margin-bottom: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .third-part ul li {
@@ -725,32 +879,31 @@ Fotter section start here  */
     margin-top: 10px;
 }
 
+
+
 .hr-tag hr {
-    background-color: rgb(236, 27, 27);
-    width: 50%;
-    margin-left: 100px;
-    /* display: block; */
-    /* color: #000000;;
-    background-color: #000000;; */
+    border: 2px Middle rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 80%;
+    left: 95px;
+    */
 }
 
-.hr {
-    color: #07f65f;
-}
+
 
 
 .copy-right {
     text-align: center;
-    /* margin-top: 50px; */
     background: #000000;
-    ;
     font-size: 20px;
-    /* overflow: hidden; */
-    /* display: block; */
     padding-top: 50px;
     padding-bottom: 50px;
-}
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 
+}
 
 
 
@@ -819,3 +972,7 @@ Fotter section start here  */
     }
 
 }
+
+
+
+/* after completing dekstop part full  */
