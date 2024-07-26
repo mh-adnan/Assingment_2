@@ -353,19 +353,20 @@
 
 
 /* extra benifit section start from here  */
-.extra-benifits{
+.extra-benifits {
     background-color: #000000;
     padding-top: 30px;
 }
-.benifits-top-part h3{
+
+.benifits-top-part h3 {
     font-size: 40px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Inter;
 }
 
-.benifits-top-part p{
-    width:50%;
+.benifits-top-part p {
+    width: 50%;
     text-align: center;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
@@ -377,7 +378,7 @@
 
 }
 
-.benifits-botom-part{
+.benifits-botom-part {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     justify-content: space-around;
@@ -400,7 +401,7 @@
     left: 20px;
 }
 
-.cart-img img{
+.cart-img img {
     width: 60px;
     height: 80px;
     background-color: transparent;
@@ -420,8 +421,8 @@
     font-family: Inter;
 }
 
-#work-out{
-    
+#work-out {
+
     /* margin-right: -50px; */
     margin-left: 160px;
     white-space: nowrap;
@@ -1245,21 +1246,64 @@ run extra miles start from here  */
         object-fit: cover;
     }
 
-/* extra benifit section start from here  */
+    /* extra benifit section start from here  */
+
+    .benifits-botom-part {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -520px;
+        padding-bottom: 500px;
+        margin-left: -51px;
+    }
+
+    .benifits-top-part p {
+        width: 66%;
+        /* text-align: center; */
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+
+    #b1 {
+        margin-right: 53px;
+    }
+
+    #b2 {
+        margin-right: 93px;
+    }
+
+    #work-out {
+        margin-right: 10px;
+        position: absolute;
+        top: 153px;
+        bottom: 10px;
+        margin-left: 112px;
+        white-space: wrap;
+    }
+
+    #b4 {
+        margin-right: 116px;
+    }
 
 
 
 
-.benifits-botom-part{
-    padding-bottom: 500px;
-}
+    .benifits-botom-part {
+        padding-top: 500px;
+    }
 
     /* BMI calcu start form here  */
 
-
+    .bmi-calcu {
+        margin-top: -500px;
+    }
 
     .calcu-top-part h3 {
-        
+
         font-size: 40px;
     }
 
@@ -1271,7 +1315,7 @@ run extra miles start from here  */
 
     .bmi-right-part {
         position: absolute;
-        top: 4638px;
+        top: 6472px;
         left: 50px;
         width: 46%;
     }
@@ -1457,5 +1501,4 @@ run extra miles start from here  */
     }
 }
 
-/* 
-after complitin 100% code  */
+/* after compliting desktop + responsive  100% code  */
